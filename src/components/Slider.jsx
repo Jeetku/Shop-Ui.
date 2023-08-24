@@ -53,6 +53,7 @@ const ImgContainer = styled.div`
 
 const Image = styled.img`
   height: 80%;
+  mix-blend-mode: darken;
 `;
 
 const InfoContainer = styled.div`
