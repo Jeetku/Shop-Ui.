@@ -39,3 +39,38 @@ export const categories = [
     title: "LIGHT JACKETS",
   },
 ];
+
+export const popularProducts = [
+  {
+    id: 1,
+    img: "https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+  },
+  {
+    id: 2,
+    img: "https://assets.ajio.com/medias/sys_master/root/20230207/Bpsu/63e2752ef997dd708e405f37/-473Wx593H-443009916-grey-MODEL.jpg",
+  },
+  {
+    id: 3,
+    img: "https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+  },
+  {
+    id: 4,
+    img: "https://assets.ajio.com/medias/sys_master/root/20221006/M3Un/633eeba6f997ddfdbd09972a/-473Wx593H-441148975-magntafusha-MODEL.jpg",
+  },
+  {
+    id: 5,
+    img: "https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+  },
+  {
+    id: 6,
+    img: "https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+  },
+  {
+    id: 7,
+    img: "https://assets.ajio.com/medias/sys_master/root/20230629/V6xI/649ce863a9b42d15c91f25af/-473Wx593H-466070838-maroon-MODEL.jpg",
+  },
+  {
+    id: 8,
+    img: "https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+  },
+];

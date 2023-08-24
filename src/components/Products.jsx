@@ -1,22 +1,23 @@
 import React from "react";
 import { styled } from "styled-components";
-import { categories } from "../Data";
-import CategoryItems from "./CategoryItems";
+import { popularProducts } from "../Data";
+import Product from "./Product";
 
 const Container = styled.div`
   display: flex;
   padding: 20px;
+  flex-wrap: wrap;
   justify-content: space-between;
 `;
 
-const Categories = () => {
+const Products = () => {
   return (
     <Container>
-      {categories.map((item) => (
-        <CategoryItems key={item.id} item={item} />
+      {popularProducts.map((item) => (
+        <Product item={item} key={item.id} />
       ))}
     </Container>
   );
 };
 
-export default Categories;
+export default Products;
